@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Main = styled.div`
   text-align: center;
   align-items: center;
+  width: 600px;
   img {
     height: 40vmin;
   }
@@ -11,7 +12,7 @@ export const Main = styled.div`
     padding-left: 0px;
   }
   h2 {
-    margin: -40px 350px -30px 0;
+    margin: 0px 0px 0px 0;
   }
 `;
 

@@ -15,7 +15,7 @@ function App() {
         <ul>
           <h2>Alunos:</h2>
           <li>Anthony Almeida</li>
-          <li>Raúl Tomaz </li>
+          <li>Raul Tomaz </li>
           <li>Renan Cavalcante</li>
           <li>Rodrigo Conegundes</li>
         </ul>

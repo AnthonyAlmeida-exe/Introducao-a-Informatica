@@ -31,30 +31,15 @@ export const Title = styled.p`
 export const Description = styled.p`
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
-  height: 100px;
+  height: 90px;
   color: white;
 `;
 export const Card = styled.div`
-  width: 500px;
-  margin: 0 0 0 50px;
-`;
-export const Pastas = styled.div`
-  width: 500px;
-  margin: 0 0 0 50px;
-`;
-export const Arquivos = styled.div`
-  width: 500px;
-  margin: 0 0 0 50px;
-`;
-export const Formatos = styled.div`
-  width: 500px;
-  margin: 0 0 0 50px;
-`;
-export const Biblioteca = styled.div`
-  width: 500px;
-  margin: 0 0 0 50px;
-`;
-export const Classifier = styled.div`
-  width: 500px;
-  margin: 0 0 0 50px;
+  width: 600px;
+  height: 500px;
+  margin: 0 30px 50px 50px;
+  padding-right: 50px;
+  border-right: 1px solid;
+  border-left-width: 50px;
+  border-left-color: #fc0fc0;
 `;

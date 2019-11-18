@@ -1,20 +1,9 @@
 import React from "react";
-import {
-  Main,
-  Link,
-  Title,
-  Description,
-  Pastas,
-  Arquivos,
-  Header,
-  Formatos,
-  Biblioteca,
-  Classifier,
-  Card
-} from "./styles.js";
+import { Main, Link, Title, Description, Header, Card } from "./styles.js";
 import Gif1 from "../../assets/Gif1.gif";
 import Gif2 from "../../assets/Gif2.gif";
 import Gif3 from "../../assets/Gif3.gif";
+import BibliotecaImg from "../../assets/Biblioteca.jpeg";
 
 const Anthony = () => (
   <>
@@ -33,32 +22,32 @@ const Anthony = () => (
         </Description>
         <img src={Gif1} />
       </Card>
-      <Arquivos>
+      <Card>
         <Title>Arquivos:</Title>
         <Description>
           Arquivo é um conjunto de documentos criados ou recebidos pelo usuário
           em um gerenciador.
         </Description>
         <img src={Gif2} />
-      </Arquivos>
-      <Biblioteca>
+      </Card>
+      <Card>
         <Title>Bibliotecas:</Title>
         <Description>
           Uma biblioteca é um recurso que aponta para os locais onde estão
           armazenados seus arquivos. A biblioteca reúne todos os arquivos e
           pastas de uma mesma categoria.
         </Description>
-        <img src={Gif2} />
-      </Biblioteca>
-      <Formatos>
+        <img src={BibliotecaImg} />
+      </Card>
+      <Card>
         <Title>Formatos:</Title>
         <Description>
           O MP3 foi um dos primeiros tipos de compressão de áudio com perdas
           quase imperceptíveis ao ouvido humano.
         </Description>
         <img src={Gif2} />
-      </Formatos>
-      <Classifier>
+      </Card>
+      <Card>
         <Title>Classifier:</Title>
         <Description>
           É um script simples, escrito em python, que promete organizar,
@@ -66,7 +55,7 @@ const Anthony = () => (
           diferentes diretórios categorizados.
         </Description>
         <img src={Gif3} />
-      </Classifier>
+      </Card>
     </Main>
   </>
 );
