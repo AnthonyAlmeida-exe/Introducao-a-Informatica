@@ -14,8 +14,6 @@ export const Main = styled.div`
   h2 {
     margin: 0px 0px 0px 0;
   }
-  li {
-  }
 `;
 
 export const Header = styled.div`

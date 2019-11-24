@@ -3,6 +3,7 @@ import { Main, Link, Title, Description, Header, Card } from "./styles.js";
 import Gif1 from "../../assets/Gif1.gif";
 import Gif2 from "../../assets/Gif2.gif";
 import Gif3 from "../../assets/Gif3.gif";
+import Formatos from "../../assets/Formatos.png";
 import BibliotecaImg from "../../assets/Biblioteca.jpeg";
 
 const Anthony = () => (
@@ -15,7 +16,7 @@ const Anthony = () => (
     </Header>
     <Main>
       <Card>
-        <Title>Pastas:</Title>
+        <Title>Pastas</Title>
         <Description>
           Objeto que é usado para agrupar e proteger documentos soltos em um
           gerenciador de arquivos.
@@ -23,7 +24,7 @@ const Anthony = () => (
         <img src={Gif1} />
       </Card>
       <Card>
-        <Title>Arquivos:</Title>
+        <Title>Arquivos</Title>
         <Description>
           Arquivo é um conjunto de documentos criados ou recebidos pelo usuário
           em um gerenciador.
@@ -31,7 +32,7 @@ const Anthony = () => (
         <img src={Gif2} />
       </Card>
       <Card>
-        <Title>Bibliotecas:</Title>
+        <Title>Bibliotecas</Title>
         <Description>
           Uma biblioteca é um recurso que aponta para os locais onde estão
           armazenados seus arquivos. A biblioteca reúne todos os arquivos e
@@ -40,15 +41,15 @@ const Anthony = () => (
         <img src={BibliotecaImg} />
       </Card>
       <Card>
-        <Title>Formatos:</Title>
+        <Title>Formatos</Title>
         <Description>
           O MP3 foi um dos primeiros tipos de compressão de áudio com perdas
           quase imperceptíveis ao ouvido humano.
         </Description>
-        <img src={Gif2} />
+        <img src={Formatos} />
       </Card>
       <Card>
-        <Title>Classifier:</Title>
+        <Title>Classifier</Title>
         <Description>
           É um script simples, escrito em python, que promete organizar,
           instantaneamente, seus arquivos, com base na extensão do mesmo, em
