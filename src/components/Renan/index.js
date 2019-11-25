@@ -4,6 +4,8 @@ import Renan1 from "../../assets/Renan1.webp";
 import Renan2 from "../../assets/Renan2.png";
 import Renan03 from "../../assets/Renan03.png";
 import Renan04 from "../../assets/Renan04.jpg";
+import windows from "../../assets/windows.gif";
+import windows1 from "../../assets/windows1.gif";
 
 const Renan = () => (
   <>
@@ -24,8 +26,18 @@ const Renan = () => (
       </Card>
       <Card>
         <Title>Utilizando Comandos</Title>
-        <Description>Exemplo em Terminal.</Description>
+        <Description>Exemplo em Terminal</Description>
         <img src={Renan2} />
+      </Card>
+      <Card>
+        <Title>Utilizando Comandos</Title>
+        <Description>Exemplo em Prompt Windows</Description>
+        <img src={windows} />
+      </Card>
+      <Card>
+        <Title>Utilizando Comandos</Title>
+        <Description>Exemplo em Prompt Windows</Description>
+        <img src={windows1} />
       </Card>
       <Card>
         <Title>Organização de diretórios</Title>
