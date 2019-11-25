@@ -6,6 +6,7 @@ import Gif3 from "../../assets/Gif3.gif";
 import Formatos from "../../assets/Formatos.png";
 import BibliotecaImg from "../../assets/Biblioteca.jpeg";
 import Smart from "../../assets/smart.gif";
+import comando from "../../assets/comandos.gif";
 
 const Anthony = () => (
   <>
@@ -24,6 +25,11 @@ const Anthony = () => (
           gerenciador de arquivos.
         </Description>
         <img src={Gif1} />
+      </Card>
+      <Card>
+        <Title>Comandos</Title>
+        <Description>Utilizando terminal para a manipulação.</Description>
+        <img src={comando} />
       </Card>
       <Card>
         <Title>Arquivos</Title>
