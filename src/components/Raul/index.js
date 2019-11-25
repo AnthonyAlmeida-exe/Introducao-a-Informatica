@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Main, Card, Title, Description, Link } from "./styles.js";
+import { Header, Main, Card, Title, Description, Link, Bg } from "./styles.js";
 
 import Gif1 from "../../assets/backup.gif";
 import Gif2 from "../../assets/bkincremental.png";
@@ -8,7 +8,7 @@ import BKIC from "../../assets/bkincremental.png";
 import protecao from "../../assets/protecao.png";
 
 const Raul = () => (
-  <>
+  <Bg>
     <Header>
       <h1>Backups</h1>
       <Link href="https://www.youtube.com/watch?v=kD-j8WBYrA0">
@@ -64,7 +64,25 @@ const Raul = () => (
         </Description>
         <img src={protecao} />
       </Card>
+
+      <Card>
+        <Title>Proteção</Title>
+        <Description>
+          Backup incremental contínuo Esta é uma nova modalidade de backup e que
+          tem sido bastante utilizada pelas empresas mais atualizadas. Ele é bem
+          semelhante ao incremental, porém, seu diferencial está na
+          disponibilidade dos dados.
+        </Description>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/kD-j8WBYrA0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </Card>
     </Main>
-  </>
+  </Bg>
 );
 export default Raul;

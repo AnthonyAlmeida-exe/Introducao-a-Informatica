@@ -5,6 +5,7 @@ import Gif2 from "../../assets/Gif2.gif";
 import Gif3 from "../../assets/Gif3.gif";
 import Formatos from "../../assets/Formatos.png";
 import BibliotecaImg from "../../assets/Biblioteca.jpeg";
+import Smart from "../../assets/smart.gif";
 
 const Anthony = () => (
   <>
@@ -14,6 +15,7 @@ const Anthony = () => (
         Aplicação Tecnológica
       </Link>
     </Header>
+
     <Main>
       <Card>
         <Title>Pastas</Title>
@@ -31,6 +33,7 @@ const Anthony = () => (
         </Description>
         <img src={Gif2} />
       </Card>
+
       <Card>
         <Title>Bibliotecas</Title>
         <Description>
@@ -56,6 +59,11 @@ const Anthony = () => (
           diferentes diretórios categorizados.
         </Description>
         <img src={Gif3} />
+      </Card>
+      <Card>
+        <Title>Exemplo no Smart Watch</Title>
+        <Description></Description>
+        <img src={Smart} />
       </Card>
     </Main>
   </>

@@ -27,6 +27,7 @@ export const Header = styled.div`
 export const Presentation = styled.div`
   width: 100%;
   height: auto;
+  background-color: black;
 `;
 export const Menu = styled.div`
   width: 250px;

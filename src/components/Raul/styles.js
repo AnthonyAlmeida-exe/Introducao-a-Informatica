@@ -1,19 +1,18 @@
 import styled from "styled-components";
+import bgbk from "../../assets/bgbk.jpg";
 
 export const Main = styled.div`
   flex-direction: row;
   display: flex;
   height: 550px;
   width: 100%;
-  background-color: #282c39;
   overflow-x: auto;
   ::-webkit-scrollbar {
     display: none;
   }
-  background: url("../../assets/background.jpg");
-  background-size: contain;
-  background-position: top;
-  background: cover;
+`;
+export const Bg = styled.div`
+  background-color: black;
 `;
 
 export const Link = styled.a`
@@ -26,30 +25,34 @@ export const Header = styled.div`
   width: 100%;
   text-align: center;
   align-items: center;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  color: white;
+  border-top: 1px solid;
+  border-top-color: white;
 `;
 
 export const Title = styled.p`
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
-  color: #09d3ac;
+  color: lightgrey;
   position: center;
 `;
 
 export const Description = styled.p`
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
   text-align: left;
-  height: 120px;
+  height: 100px;
   color: white;
+  padding-bottom: 10px;
 `;
 
 export const Card = styled.div`
   align-items: center;
   width: 600px;
   height: 400px;
-  margin: 0 50px 50px 50px;
-  padding: 0 50px 0 0;
+  margin: 0 0px 50px 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+
   img {
     border-radius: 10px;
   }

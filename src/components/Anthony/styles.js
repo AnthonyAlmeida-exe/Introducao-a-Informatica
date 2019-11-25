@@ -5,7 +5,7 @@ export const Main = styled.div`
   display: flex;
   height: 550px;
   width: 100%;
-  background-color: #282c39;
+  background-color: black;
   overflow-x: auto;
   ::-webkit-scrollbar {
     display: none;
@@ -22,18 +22,20 @@ export const Header = styled.div`
   width: 100%;
   text-align: center;
   align-items: center;
-  padding-bottom: 30px;
+  padding: 20px 0 30px 0;
+  background-color: black;
+  color: white;
+  border-top: 1px solid;
+  border-top-color: white;
 `;
 
 export const Title = styled.p`
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
-  color: #09d3ac;
+  color: lightgrey;
   position: center;
 `;
 
 export const Description = styled.p`
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
   height: 90px;
   color: white;
@@ -44,8 +46,9 @@ export const Card = styled.div`
   align-items: center;
   width: 600px;
   height: 400px;
-  margin: 0 50px 50px 50px;
-  padding: 0 50px 0 0;
+  margin: 0 50px 0px 0px;
+  padding-right: 50px;
+  padding-left: 50px;
   img {
     border-radius: 15px;
   }
